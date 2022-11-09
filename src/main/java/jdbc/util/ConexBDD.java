@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConexBDD {
 	private static String url = "jdbc:mysql://localhost:3306/curso_java?serverTimezone=Europe/Madrid";
     private static String username = "root";
-    private static String password = "sk8123456";
+    private static String password = "pass";
     private static Connection connection;
 
     public static Connection getInstance() throws SQLException {
